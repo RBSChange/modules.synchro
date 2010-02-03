@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+  <entity id="document-name">
+    <locale lang="fr">article</locale>
+    <locale lang="en">article</locale>
+  </entity>
+  <entity id="edition-form-title">
+    <locale lang="fr">propriétés de l'article</locale>
+    <locale lang="en">article properties</locale>
+  </entity>
+  <entity id="label">
+    <locale lang="fr">libellé</locale>
+    <locale lang="en">label</locale>
+  </entity>
+  <entity id="label-help">
+    <locale lang="fr">libellé</locale>
+    <locale lang="en">label</locale>
+  </entity>
+  <entity id="codeReference">
+    <locale lang="fr">code référence</locale>
+    <locale lang="en">reference code</locale>
+  </entity>
+  <entity id="codeReference-help">
+    <locale lang="fr">code référence</locale>
+    <locale lang="en">reference code</locale>
+  </entity>
+  <entity id="genCode">
+    <locale lang="fr">gen code</locale>
+    <locale lang="en">gen code</locale>
+  </entity>
+  <entity id="genCode-help">
+    <locale lang="fr">gen code</locale>
+    <locale lang="en">gen code</locale>
+  </entity>
+  <entity id="visual">
+    <locale lang="fr">visuel</locale>
+    <locale lang="en">visual</locale>
+  </entity>
+  <entity id="visual-help">
+    <locale lang="fr">visuel : image à sélectionner dans la Médiathèque.</locale>
+    <locale lang="en">visual</locale>
+  </entity>
+  <entity id="saleUnit">
+    <locale lang="fr">unité de vente</locale>
+    <locale lang="en">sale unit</locale>
+  </entity>
+  <entity id="saleUnit-help">
+    <locale lang="fr">unité de vente : information textuelle, utilisée pour l'affichage uniquement. Exemple : m, Kg.</locale>
+    <locale lang="en">sale unit: textual information used for display purpose only. Example: m, Kg.</locale>
+  </entity>
+  <entity id="family">
+    <locale lang="fr">famille</locale>
+    <locale lang="en">family</locale>
+  </entity>
+  <entity id="family-help">
+    <locale lang="fr">famille</locale>
+    <locale lang="en">family</locale>
+  </entity>
+  <entity id="stockQuantity">
+    <locale lang="fr">quantité en stock</locale>
+    <locale lang="en">stock quantity</locale>
+  </entity>
+  <entity id="stockQuantity-help">
+    <locale lang="fr">quantité en stock</locale>
+    <locale lang="en">stock quantity</locale>
+  </entity>
+  <entity id="weight">
+    <locale lang="fr">poids</locale>
+    <locale lang="en">weight</locale>
+  </entity>
+  <entity id="weight-help">
+    <locale lang="fr">poids</locale>
+    <locale lang="en">weight</locale>
+  </entity>
+  <entity id="weightUnit">
+    <locale lang="fr">unité de poids</locale>
+    <locale lang="en">weight unit</locale>
+  </entity>
+  <entity id="weightUnit-help">
+    <locale lang="fr">unité de poids</locale>
+    <locale lang="en">weight unit</locale>
+  </entity>
+  <entity id="articleType">
+    <locale lang="fr">articleType</locale>
+    <locale lang="en">articleType</locale>
+  </entity>
+  <entity id="articleType-help">
+    <locale lang="fr">articleType-help</locale>
+    <locale lang="en">articleType-help</locale>
+  </entity>
+    <entity id="masterCode">
+    <locale lang="fr">code article maitre</locale>
+    <locale lang="fr">master code</locale>
+  </entity>
+  <entity id="masterCode-help">
+    <locale lang="fr">le code article maitre permet de calculer le seuil d'application des prix quantitatifs sur un groupe d'articles plutôt que sur un article unique</locale>
+  </entity>
+  
+  <entity id="location">
+    <locale lang="fr">emplacement</locale>
+    <locale lang="en">location</locale>
+  </entity>
+  <entity id="header-price-erp">
+    <locale lang="fr">E</locale>
+    <locale lang="en">E</locale>
+  </entity>
+  <entity id="header-price-discount">
+    <locale lang="fr">P</locale>
+    <locale lang="en">D</locale>
+  </entity>
+  <entity id="header-price-quantity">
+    <locale lang="fr">PQ</locale>
+    <locale lang="en">QP</locale>
+  </entity>
+  <entity id="header-customer">
+    <locale lang="fr">client</locale>
+    <locale lang="en">customer</locale>
+  </entity>
+  <entity id="header-price-erp-tooltip">
+    <locale lang="fr">prix ERP</locale>
+    <locale lang="en">ERP price</locale>
+  </entity>
+  <entity id="header-price-discount-tooltip">
+    <locale lang="fr">prix promotionnel</locale>
+    <locale lang="en">discount price</locale>
+  </entity>
+  <entity id="header-price-quantity-tooltip">
+    <locale lang="fr">prix quantitatif</locale>
+    <locale lang="en">quantity-based price</locale>
+  </entity>
+  <entity id="header-customer-tooltip">
+    <locale lang="fr">client</locale>
+    <locale lang="en">customer</locale>
+  </entity>
+  <entity id="label-tooltip">
+    <locale lang="fr">libellé de l'article</locale>
+    <locale lang="en">article label</locale>
+  </entity>
+  <entity id="code-tooltip">
+    <locale lang="fr">code référence de l'article</locale>
+    <locale lang="en">article reference code</locale>
+  </entity>
+  <entity id="path">
+    <locale lang="fr">emplacement</locale>
+    <locale lang="en">location</locale>
+  </entity>
+</localization>

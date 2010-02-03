@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+  <entity id="document-name">
+    <locale lang="fr">famille d'articles</locale>
+    <locale lang="en">article family</locale>
+  </entity>
+  <entity id="edition-form-title">
+    <locale lang="fr">propriété d'une famille d'articles</locale>
+    <locale lang="en">articles family properties</locale>
+  </entity>
+  
+  <entity id="label">
+    <locale lang="fr">libellé</locale>
+    <locale lang="en">label</locale>
+  </entity>
+  <entity id="label-help">
+    <locale lang="fr">libellé</locale>
+    <locale lang="en">label</locale>
+  </entity>
+  <entity id="code">
+    <locale lang="fr">code</locale>
+    <locale lang="en">code</locale>
+  </entity>
+  <entity id="code-help">
+    <locale lang="fr">code de la famille</locale>
+    <locale lang="en">article family code</locale>
+  </entity>
+  <entity id="location">
+    <locale lang="fr">emplacement</locale>
+    <locale lang="en">location</locale>
+  </entity>
+  <entity id="subFamily">
+    <locale lang="fr">sous famille</locale>
+    <locale lang="en">sub family</locale>
+  </entity>
+  <entity id="subFamily-help">
+    <locale lang="fr">sous famille</locale>
+    <locale lang="en">sub family</locale>
+  </entity>
+</localization>

@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<perspective>
+	<models>
+		<model name="modules_generic/rootfolder">
+			<contextactions>
+				<contextaction name="edit" />
+				<contextaction name="refresh" />
+				<contextaction name="openFolder" />
+			</contextactions>
+			<children>
+				<child model="modules_synchro/articlefamily" />
+			</children>
+			<drops>
+				<drop model="modules_synchro/articlefamily" action="move" />
+			</drops>
+			<columns>
+				<column name="code" label="Code" flex="4" />
+			</columns>
+		</model>
+		<model name="modules_synchro/articlefamily">
+			<contextactions>
+				<contextaction name="edit" />
+				<contextaction name="refresh" />
+				<contextaction name="openFolder" />
+			</contextactions>
+			<children>
+				<child model="modules_synchro/articlefamily" from="subFamily" />
+				<child model="modules_synchro/article" from="article" />
+			</children>
+			<drops>
+				<drop model="modules_synchro/articlefamily" action="move" />
+				<drop model="modules_synchro/article" action="move" />
+			</drops>
+			<columns>
+				<column name="code" label="Code" flex="4" />
+			</columns>
+		</model>
+		<model name="modules_synchro/article">
+			<contextactions>
+				<contextaction name="edit" />
+			</contextactions>
+		</model>
+	</models>
+	<toolbar>
+		<toolbarbutton name="edit" />
+	</toolbar>
+	<actions>
+		<action name="edit" single="true" permission="Load" icon="edit" label="&amp;modules.uixul.bo.actions.Edit;" />
+		<action name="refresh" single="true" icon="refresh" label="&amp;modules.uixul.bo.actions.Refresh;" />
+		<action name="openFolder" single="true" icon="open-folder" label="&amp;modules.uixul.bo.actions.OpenFolder;" />
+	</actions>
+</perspective>

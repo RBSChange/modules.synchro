@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://www.rbs.fr/schema/change-document/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.rbs.fr/schema/change-document/1.0 http://www.rbschange.fr/static/schema/change-document/1.0.xsd"
+	model-version="1.0" icon="cube_green" publish-on-day-change="false" has-url="false">
+	<properties>
+		<add name="publicationstatus" localized="true" />
+		<add name="articleType" type="String" min-occurs="1" default-value="Article" />
+		<add name="codeReference" type="String" min-occurs="1" />
+		<add name="genCode" type="String" />
+		<add name="saleUnit" type="String" />
+		<add name="visual" type="modules_media/media" />
+		<add name="family" type="modules_synchro/articlefamily" min-occurs="1" inverse="true" />
+		<add name="masterCode" type="String" />
+		<add name="weight" type="Double" />
+		<add name="weightUnit" type="String" from-list="modules_catalog/weightunits" />
+		<add name="isAvailable" type="Boolean" min-occurs="1" default-value="true" />
+		<add name="stockLevel" type="String" min-occurs="1" preserve-old-value="true" />
+		<add name="stockQuantity" type="Double" min-occurs="1" />
+	</properties>
+	<statuses default="ACTIVE" />
+</document>

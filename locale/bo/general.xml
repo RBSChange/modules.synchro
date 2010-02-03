@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localization>
+	<entity id="module-name">
+		<locale lang="fr">synchro ERP</locale>
+		<locale lang="en">synchro</locale>
+	</entity>
+
+	<entity id="tree-root-name">
+		<locale lang="fr">synchro ERP</locale>
+		<locale lang="en">synchro</locale>
+	</entity>
+
+	<entity id="system-folder-name">
+		<locale lang="fr">synchro ERP</locale>
+		<locale lang="en">synchro</locale>
+	</entity>
+	
+	<entity id="column.code">
+		<locale lang="fr">code</locale>
+	</entity>
+</localization>

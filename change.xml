@@ -6,13 +6,14 @@
 	<type>change-module</type>
 	<license>com</license>
 	<repository>public</repository>
-	<version>3.0.0</version>
+	<version>3.0.1</version>
 	<description>Synchro module</description>
 	<dependencies>
 		<dependency>
 			<name>change-lib/framework</name>
 			<versions>
 				<version>3.0.0</version>
+				<version>3.0.1</version>
 			</versions>
 		</dependency>
 	</dependencies>
